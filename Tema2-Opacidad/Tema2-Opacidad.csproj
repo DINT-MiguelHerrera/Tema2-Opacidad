@@ -6,12 +6,17 @@
     <RootNamespace>Tema2_Opacidad</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>IconoOpacidad.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="episodioIV.jpg" />
     <None Remove="episodioV.jpg" />
     <None Remove="episodioVI.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="IconoOpacidad.ico" />
   </ItemGroup>
 
   <ItemGroup>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_Opacidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Opacidad" Height="450" Width="800">
     <Grid>
         <Image x:Name="imagen1" HorizontalAlignment="Left" Margin="15,36,0,0" VerticalAlignment="Top" Source="/episodioIV.jpg" Height="350" Width="251" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         <Image x:Name="imagen2" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" Source="/episodioV.jpg" Height="350" Width="240" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>

@@ -27,19 +27,14 @@ namespace Tema2_Opacidad
 
         private void Image_MouseEnter(object sender, MouseEventArgs e)
         {
-            if(Mouse)
-            {
-
-            }
-            imagen1.Opacity = 1;
-            imagen2.Opacity = 1;    
-            imagen3.Opacity = 1;    
+            Image image = sender as Image;
+            image.Opacity = 1;
+            
         }
 
         private void Image_MouseLeave(object sender, MouseEventArgs e) {
-            imagen1.Opacity = 0.5;
-            imagen2.Opacity = 0.5;
-            imagen3.Opacity = 0.5;
+            Image image = sender as Image;
+            image.Opacity = 0.5;
         }
     }
 }
